@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-20T22:11:19 IST" name="SalesForce34" finished-at="2022-08-20T22:13:24 IST" duration-ms="124998">
+  <suite started-at="2022-08-22T16:12:46 IST" name="Suite" finished-at="2022-08-22T16:14:23 IST" duration-ms="96662">
     <groups>
     </groups>
-    <test started-at="2022-08-20T22:11:19 IST" name="SalesForce34-Chrome" finished-at="2022-08-20T22:12:17 IST" duration-ms="57249">
-      <class name="automate.test.SalesForce3">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automate.test.SalesForce3@534a5a98]" started-at="2022-08-20T22:11:19 IST" name="preCondition" finished-at="2022-08-20T22:11:41 IST" duration-ms="21855" status="PASS">
+    <test started-at="2022-08-22T16:12:46 IST" name="StaticSF3" finished-at="2022-08-22T16:14:23 IST" duration-ms="96662">
+      <class name="automate.test.StaticSF3">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:automate.test.StaticSF3@2e6a8155]" started-at="2022-08-22T16:12:46 IST" name="preCondition" finished-at="2022-08-22T16:13:01 IST" duration-ms="14746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,31 +19,46 @@
                 <![CDATA[https://login.salesforce.com/]]>
               </value>
             </param>
-            <param index="2">
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="staticSF3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automate.test.StaticSF3@2e6a8155]" started-at="2022-08-22T16:13:01 IST" name="staticSF3" data-provider="testdata" finished-at="2022-08-22T16:13:33 IST" duration-ms="31466" status="PASS">
+          <params>
+            <param index="0">
               <value>
                 <![CDATA[vj@salesforce.com]]>
               </value>
             </param>
-            <param index="3">
+            <param index="1">
               <value>
                 <![CDATA[Malaysia@94]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Content]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[coming from excel]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[coming from excel]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="salesForce3()[pri:0, instance:automate.test.SalesForce3@534a5a98]" started-at="2022-08-20T22:11:41 IST" name="salesForce3" finished-at="2022-08-20T22:12:02 IST" duration-ms="20728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salesForce3 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:automate.test.SalesForce3@534a5a98]" started-at="2022-08-20T22:12:02 IST" name="postCondition" finished-at="2022-08-20T22:12:05 IST" duration-ms="2543" status="PASS">
+        </test-method> <!-- staticSF3 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:automate.test.StaticSF3@2e6a8155]" started-at="2022-08-22T16:13:33 IST" name="postCondition" finished-at="2022-08-22T16:13:36 IST" duration-ms="3230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- automate.test.SalesForce3 -->
-      <class name="automate.test.SalesForce4">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automate.test.SalesForce4@6e6f2380]" started-at="2022-08-20T22:11:20 IST" name="preCondition" finished-at="2022-08-20T22:11:42 IST" duration-ms="22062" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:automate.test.StaticSF3@2e6a8155]" started-at="2022-08-22T16:13:36 IST" name="preCondition" finished-at="2022-08-22T16:13:48 IST" duration-ms="12418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,103 +70,46 @@
                 <![CDATA[https://login.salesforce.com/]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[vj@salesforce.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Malaysia@94]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="salesForce4()[pri:0, instance:automate.test.SalesForce4@6e6f2380]" started-at="2022-08-20T22:11:42 IST" name="salesForce4" finished-at="2022-08-20T22:12:14 IST" duration-ms="32685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salesForce4 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:automate.test.SalesForce4@6e6f2380]" started-at="2022-08-20T22:12:14 IST" name="postCondition" finished-at="2022-08-20T22:12:17 IST" duration-ms="2429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- automate.test.SalesForce4 -->
-    </test> <!-- SalesForce34-Chrome -->
-    <test started-at="2022-08-20T22:12:17 IST" name="SalesForce34-Edge" finished-at="2022-08-20T22:13:24 IST" duration-ms="67731">
-      <class name="automate.test.SalesForce3">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automate.test.SalesForce3@196a42c3]" started-at="2022-08-20T22:12:17 IST" name="preCondition" finished-at="2022-08-20T22:12:51 IST" duration-ms="34454" status="PASS">
+        <test-method signature="staticSF3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automate.test.StaticSF3@2e6a8155]" started-at="2022-08-22T16:13:48 IST" name="staticSF3" data-provider="testdata" finished-at="2022-08-22T16:14:19 IST" duration-ms="31065" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[ramkumar.ramaiah@testleaf.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://login.salesforce.com/]]>
+                <![CDATA[Password#123]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[vj@salesforce.com]]>
+                <![CDATA[Content]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Malaysia@94]]>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hello]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="salesForce3()[pri:0, instance:automate.test.SalesForce3@196a42c3]" started-at="2022-08-20T22:12:51 IST" name="salesForce3" finished-at="2022-08-20T22:13:09 IST" duration-ms="18171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salesForce3 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:automate.test.SalesForce3@196a42c3]" started-at="2022-08-20T22:13:09 IST" name="postCondition" finished-at="2022-08-20T22:13:12 IST" duration-ms="2853" status="PASS">
+        </test-method> <!-- staticSF3 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:automate.test.StaticSF3@2e6a8155]" started-at="2022-08-22T16:14:19 IST" name="postCondition" finished-at="2022-08-22T16:14:23 IST" duration-ms="3635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- automate.test.SalesForce3 -->
-      <class name="automate.test.SalesForce4">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automate.test.SalesForce4@4c60d6e9]" started-at="2022-08-20T22:12:17 IST" name="preCondition" finished-at="2022-08-20T22:12:51 IST" duration-ms="34292" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://login.salesforce.com/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[vj@salesforce.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Malaysia@94]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="salesForce4()[pri:0, instance:automate.test.SalesForce4@4c60d6e9]" started-at="2022-08-20T22:12:51 IST" name="salesForce4" finished-at="2022-08-20T22:13:22 IST" duration-ms="30986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salesForce4 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:automate.test.SalesForce4@4c60d6e9]" started-at="2022-08-20T22:13:22 IST" name="postCondition" finished-at="2022-08-20T22:13:24 IST" duration-ms="2446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- automate.test.SalesForce4 -->
-    </test> <!-- SalesForce34-Edge -->
-  </suite> <!-- SalesForce34 -->
+      </class> <!-- automate.test.StaticSF3 -->
+    </test> <!-- StaticSF3 -->
+  </suite> <!-- Suite -->
 </testng-results>

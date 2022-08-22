@@ -20,9 +20,9 @@ import org.testng.annotations.AfterMethod;
 public class BaseClassSalesForce {
 	public RemoteWebDriver driver;
 	public  ChromeDriver driver1;
-	@Parameters({"browserName","URL","uName","passWord"})
+	@Parameters({"browserName","URL"})
 	@BeforeMethod
-	public void preCondition(String browserName,String url,String uname,String pass ) {
+	public void preCondition(String browserName,String url ) {
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -38,11 +38,11 @@ public class BaseClassSalesForce {
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(uname);
+		/*driver.findElement(By.xpath("//input[@id='username']")).sendKeys(uname);
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pass);
 		driver.findElement(By.xpath("//input[@id='Login']")).click();
 		driver.findElement(By.xpath("//div[contains(@class,'slds-icon-waffle')]")).click();
-		driver.findElement(By.xpath("//button[text()='View All']")).click();
+		driver.findElement(By.xpath("//button[text()='View All']")).click();*/
 	}
 
 	@AfterMethod
